@@ -1,0 +1,6 @@
+order_id,info_json
+1,"{""meta"": {""price"": 1100, ""status"": ""shipped""}}"
+2,"{""meta"": {""price"": 1300, ""status"": ""confirmed""}}"
+3,"{""meta"": {""price"": 900, ""status"": ""cancelled""}}"
+4,"{""meta"": {""price"": 1500, ""status"": ""shipped""}}"
+5,"{""meta"": {""price"": 1250, ""status"": ""pending""}}"
