@@ -1,0 +1,6 @@
+order_id,customer_name,order_info,order_date,total_amount
+1001,김철수,"{""items"": [{""name"": ""아메리카노"", ""size"": ""Large"", ""price"": 4500}], ""customer"": {""membership"": ""VIP"", ""age_group"": ""20s"", ""visit_count"": 15}, ""payment"": {""method"": ""card"", ""discount"": 500}}",2024-05-01,8500
+1002,이영희,"{""items"": [{""name"": ""카페라떼"", ""size"": ""Medium"", ""price"": 4800}], ""customer"": {""membership"": ""Regular"", ""age_group"": ""30s"", ""visit_count"": 5}, ""payment"": {""method"": ""cash"", ""discount"": 0}}",2024-05-01,4800
+1003,박민수,"{""items"": [{""name"": ""바닐라라떼"", ""size"": ""Large"", ""price"": 5100}, {""name"": ""샷 추가"", ""size"": ""Single"", ""price"": 1000}], ""customer"": {""membership"": ""VIP"", ""age_group"": ""40s"", ""visit_count"": 20}, ""payment"": {""method"": ""card"", ""discount"": 1000}}",2024-05-02,9600
+1004,최지훈,"{""items"": [{""name"": ""아이스 아메리카노"", ""size"": ""Large"", ""price"": 4500}], ""customer"": {""membership"": ""Regular"", ""age_group"": ""20s"", ""visit_count"": 2}, ""payment"": {""method"": ""card"", ""discount"": 0}}",2024-05-03,4500
+1005,한서윤,"{""items"": [{""name"": ""카라멜 마키아토"", ""size"": ""Medium"", ""price"": 5200}], ""customer"": {""membership"": ""VIP"", ""age_group"": ""30s"", ""visit_count"": 12}, ""payment"": {""method"": ""naverpay"", ""discount"": 500}}",2024-05-03,9700
