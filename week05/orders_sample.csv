@@ -1,0 +1,7 @@
+order_id,customer,category,sales,quantity
+101,Alice,Coffee,5000,2
+102,Bob,Tea,3000,1
+103,Alice,Coffee,8000,3
+104,Daniel,Juice,2000,1
+105,Bob,Coffee,7000,2
+106,Alice,Juice,2500,1
