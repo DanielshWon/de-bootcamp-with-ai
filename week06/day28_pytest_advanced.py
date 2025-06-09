@@ -124,3 +124,8 @@ def test_normal_file_reading():
 
 
 test_normal_file_reading()
+
+# 브랜치 테스트 - add-new-tests에서 추가한 코드
+def test_branch_experiment():
+    print("이 코드는 add-new-tests 브랜치에서만 보여요!")
+    assert True
