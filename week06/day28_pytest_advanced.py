@@ -129,3 +129,6 @@ test_normal_file_reading()
 def test_branch_experiment():
     print("이 코드는 add-new-tests 브랜치에서만 보여요!")
     assert True
+    
+# 개발자 A가 마지막에 추가한 코드
+print("개발자 A의 기능을 추가했어요!")
