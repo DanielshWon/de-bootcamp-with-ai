@@ -14,9 +14,9 @@ import pandas as pd
 data = [
     ["2025-05-01", "아메리카노", 4500, 2],
     ["2025-06-01", "카페라떼", 5000, 3],
-    ["2025-06-02", "아이스크림", 5000, 1]
+    ["2025-06-02", "아이스크림", 5000, 1],
 ]
-df = pd.DataFrame(data, columns=["날짜","메뉴","가격","수량"])
+df = pd.DataFrame(data, columns=["날짜", "메뉴", "가격", "수량"])
 
 print(df)
 
@@ -69,6 +69,7 @@ except FileNotFoundError:
 # Cell 6: pytest로 예외 상황 테스트
 import pytest
 
+
 def test_file_not_found():
     # 승환님이 직접 작성해보세요!
     # 힌트: pytest.raises() 사용
@@ -103,6 +104,7 @@ def test_normal_file_reading():
     # 힌트: assert isinstance(결과, pd.DataFrame)
     assert isinstance(df, pd.DataFrame)
 
+
 test_normal_file_reading()
 
 
@@ -111,13 +113,14 @@ test_normal_file_reading()
 
 ## 정답
 
+
 def test_normal_file_reading():
     # 1단계: 함수 호출해서 결과 받기
     result = read_cafe_sales("cafe_sales.csv")
-    
+
     # 2단계: 그 결과가 DataFrame인지 확인
     assert isinstance(result, pd.DataFrame)
     print("정상 읽기 테스트 성공!")
-    
-test_normal_file_reading()
 
+
+test_normal_file_reading()

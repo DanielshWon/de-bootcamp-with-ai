@@ -27,3 +27,15 @@ jobs:
       run: |
         cd week06
         python -m pytest day28_pytest_advanced.py -v
+
+    - name: Install code quality tools
+      run: |
+        pip install black flake8
+
+    - name: Check code formatting with Black
+      run: |
+        black --check week06/day28_pytest_advanced.py
+
+    - name: Check code quality with Flake8
+      run: |
+        flake8 week06/day28_pytest_advanced.py
