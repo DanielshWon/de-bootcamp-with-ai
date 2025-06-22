@@ -1,0 +1,22 @@
+name: Docker 자동 빌드
+
+on:
+  push:
+    branches: [ main ]
+    paths: 
+      - 'week08/web-docker-app/**'
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 코드 체크아웃
+      uses: actions/checkout@v3
+      
+    - name: Flask 앱 Docker 빌드
+      run: |
+        cd week08/web-docker-app
+        docker build -t seunghwan-flask-app .
+        echo "🐳 Docker 이미지 빌드 성공!"
+        docker images
