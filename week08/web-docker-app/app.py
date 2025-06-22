@@ -26,4 +26,5 @@ def info():
     """
 
 if __name__ == '__main__':
+    print("🔥 GitHub Actions 자동 빌드 테스트!")
     app.run(host='0.0.0.0', port=5000, debug=True)
