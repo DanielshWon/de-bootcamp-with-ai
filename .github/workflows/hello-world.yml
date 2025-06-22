@@ -1,0 +1,16 @@
+name: 승환님의 첫 GitHub Actions
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 인사하기
+      run: |
+        echo "🎉 안녕하세요! 승환님!"
+        echo "🚀 GitHub Actions가 자동으로 실행되었어요!"
+        echo "📅 $(date)"
